@@ -1,0 +1,5 @@
+[
+  {"id": "DEMO001", "name": "John Doe", "age": 45, "condition": "Hypertension"},
+  {"id": "DEMO002", "name": "Jane Smith", "age": 67, "condition": "Diabetes"},
+  {"id": "DEMO003", "name": "Ada Okafor", "age": 29, "condition": "Asthma"}
+]

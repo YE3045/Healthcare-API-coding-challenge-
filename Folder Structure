@@ -1,0 +1,16 @@
+DemoMed-Healthcare-API-Assessment/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── main.py
+├── utils.py
+│
+├── data/
+│   ├── sample_patients.json
+│   └── results.json
+│
+└── .github/
+    └── workflows/
+        └── run-assessment.yml

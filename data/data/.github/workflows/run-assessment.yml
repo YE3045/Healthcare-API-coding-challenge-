@@ -1,0 +1,32 @@
+name: Run DemoMed Assessment
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-assessment:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run assessment script
+      env:
+        DEMOMED_API_KEY: ${{ secrets.DEMOMED_API_KEY }}
+      run: |
+        echo "Running DemoMed Healthcare Assessment..."
+        python main.py

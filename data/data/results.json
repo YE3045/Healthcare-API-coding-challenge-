@@ -1,0 +1,17 @@
+{
+  "analysis_summary": {
+    "total_patients": 50,
+    "high_risk_count": 14,
+    "fever_patients_count": 9,
+    "data_quality_issues_count": 5,
+    "average_risk_score": 3.2
+  },
+  "alerts": {
+    "high_risk_patients": ["DEMO002", "DEMO009", "DEMO015"],
+    "fever_patients": ["DEMO005", "DEMO007"],
+    "data_quality_issues": ["DEMO004", "DEMO010"]
+  },
+  "submitted_by": "Owolabi Samuel",
+  "timestamp": "2025-10-29T20:34:00Z",
+  "status": "READY_FOR_SUBMISSION"
+}

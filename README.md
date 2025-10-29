@@ -29,4 +29,4 @@ demomed-api-assessment/
 ```
 
 ## 🧠 Author
-**Owolabi Samuel**
+**adeyemi akano**
